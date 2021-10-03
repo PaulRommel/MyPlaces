@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "ПолМедведя.jpg",
+      "filename" : "Индокитай.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ПолМедведя-1.jpg",
+      "filename" : "Индокитай@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ПолМедведя-2.jpg",
+      "filename" : "Индокитай@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

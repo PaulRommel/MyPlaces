@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Корчма Гоголь.jpg",
+      "filename" : "Бочка.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Корчма Гоголь-1.jpg",
+      "filename" : "Бочка@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Корчма Гоголь-2.jpg",
+      "filename" : "Бочка@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

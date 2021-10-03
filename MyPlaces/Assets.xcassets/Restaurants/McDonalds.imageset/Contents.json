@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "McDonalds.jpg",
+      "filename" : "X.O.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "McDonalds-1.jpg",
+      "filename" : "X.O@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "McDonalds-2.jpg",
+      "filename" : "X.O@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

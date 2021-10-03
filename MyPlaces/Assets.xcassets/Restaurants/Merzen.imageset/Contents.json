@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Merzen.jpg",
+      "filename" : "Speak Easy.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Merzen-1.jpg",
+      "filename" : "Speak Easy@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Merzen-2.jpg",
+      "filename" : "Speak Easy@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
