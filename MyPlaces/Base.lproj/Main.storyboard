@@ -246,6 +246,9 @@
                             <color key="tintColor" systemColor="linkColor"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageOfPlace" destination="aRm-NB-fKV" id="MzM-2R-Hqp"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ND-aZ-EED" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="qPB-MJ-3hj" userLabel="Exit" sceneMemberID="exit"/>
