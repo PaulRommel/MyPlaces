@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zyb-hC-i7H">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zyb-hC-i7H">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -239,15 +239,22 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="c7W-a6-9mU">
                             <color key="tintColor" systemColor="linkColor"/>
                             <connections>
-                                <segue destination="qPB-MJ-3hj" kind="unwind" unwindAction="cancelAction:" id="L9a-C8-sKT"/>
+                                <action selector="cancelAction:" destination="uRe-je-W84" id="O0y-pE-Phw"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="F1k-JM-fGU">
                             <color key="tintColor" systemColor="linkColor"/>
+                            <connections>
+                                <segue destination="qPB-MJ-3hj" kind="unwind" unwindAction="unwindSegue:" id="V5o-4A-Bjw"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="imageOfPlace" destination="aRm-NB-fKV" id="MzM-2R-Hqp"/>
+                        <outlet property="placeImage" destination="aRm-NB-fKV" id="MzM-2R-Hqp"/>
+                        <outlet property="placeLocation" destination="ovc-6b-T9R" id="Fee-cX-Xwo"/>
+                        <outlet property="placeName" destination="gGO-pc-qMO" id="cwj-rB-d6r"/>
+                        <outlet property="placeType" destination="vu3-MK-3Bx" id="XsU-Lu-uZB"/>
+                        <outlet property="saveButton" destination="F1k-JM-fGU" id="ZIZ-7T-B77"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ND-aZ-EED" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
