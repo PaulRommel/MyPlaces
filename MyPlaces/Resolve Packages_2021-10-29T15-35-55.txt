@@ -1,0 +1,13 @@
+
+Showing Recent Messages
+
+realm-cocoa
+ld: warning: dylib (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/libPackageDescription.dylib) was built for newer macOS version (11.0) than being linked (10.15)Invalid Source '/Users/pavelpopov/Library/Developer/Xcode/DerivedData/MyPlaces-glrwsizghrhncwagaticpfxkxhnx/SourcePackages/checkouts/realm-cocoa/Realm/ObjectStore/src/impl/primitive_list_notifier.cpp': File not found.
+
+
+realm-core
+ld: warning: dylib (/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/ManifestAPI/libPackageDescription.dylib) was built for newer macOS version (11.0) than being linked (10.15)
+
+
+
+Resolving Package Graph Succeeded    29.10.2021, 15:36    4.4 seconds
