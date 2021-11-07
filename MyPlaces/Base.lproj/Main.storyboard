@@ -151,7 +151,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qbj-PJ-Fps" customClass="RatingControl" customModule="MyPlaces" customModuleProvider="target">
+                                                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="252" placeholderIntrinsicHeight="44" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qbj-PJ-Fps" customClass="RatingControl" customModule="MyPlaces" customModuleProvider="target">
                                                     <rect key="frame" x="81" y="48" width="252" height="44"/>
                                                 </stackView>
                                             </subviews>
@@ -203,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="85" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fF7-60-V2m">
-                                <rect key="frame" x="0.0" y="120" width="414" height="742"/>
+                                <rect key="frame" x="0.0" y="120" width="414" height="776"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="jH6-Uj-Vop" customClass="CustomTableViewCell" customModule="MyPlaces" customModuleProvider="target">
@@ -281,7 +281,7 @@
                         <viewLayoutGuide key="safeArea" id="IKK-c0-gOl"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fF7-60-V2m" firstAttribute="bottom" secondItem="IKK-c0-gOl" secondAttribute="bottom" id="1p4-Rl-AQz"/>
+                            <constraint firstItem="fF7-60-V2m" firstAttribute="bottom" secondItem="tbD-iS-8u3" secondAttribute="bottom" id="1p4-Rl-AQz"/>
                             <constraint firstItem="fF7-60-V2m" firstAttribute="trailing" secondItem="IKK-c0-gOl" secondAttribute="trailing" id="5oR-O7-N32"/>
                             <constraint firstItem="STy-d5-vGu" firstAttribute="leading" secondItem="IKK-c0-gOl" secondAttribute="leading" id="H2b-2R-btn"/>
                             <constraint firstItem="STy-d5-vGu" firstAttribute="trailing" secondItem="IKK-c0-gOl" secondAttribute="trailing" id="TQQ-Oc-mLo"/>
@@ -350,6 +350,11 @@
             <point key="canvasLocation" x="1209" y="-714"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Qbj-PJ-Fps">
+            <size key="intrinsicContentSize" width="252" height="44"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="t9f-Kb-Ghp"/>
     </inferredMetricsTieBreakers>
