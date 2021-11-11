@@ -2,11 +2,20 @@
   "object": {
     "pins": [
       {
+        "package": "Cosmos",
+        "repositoryURL": "https://github.com/evgenyneu/Cosmos.git",
+        "state": {
+          "branch": "master",
+          "revision": "cce521e734d0090494bd4afab5fd2e2f2465c1af",
+          "version": null
+        }
+      },
+      {
         "package": "Realm",
         "repositoryURL": "https://github.com/realm/realm-cocoa.git",
         "state": {
           "branch": "master",
-          "revision": "b67fa0043b7eb957ab4eeb9ac72433fe3f4dac02",
+          "revision": "c75a98ae3a550ca2264bb9fe06502a4a64d7d65e",
           "version": null
         }
       },
@@ -15,8 +24,8 @@
         "repositoryURL": "https://github.com/realm/realm-core",
         "state": {
           "branch": null,
-          "revision": "23f60515a00f076a9e3f2dc672fe1ae07601ee90",
-          "version": "11.4.1"
+          "revision": "b170db6a47789ff5f2fbc3eeed0220b4b0a3f6b7",
+          "version": "11.6.0"
         }
       }
     ]
