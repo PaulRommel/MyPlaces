@@ -246,6 +246,9 @@
                             <constraint firstItem="dzy-C7-k95" firstAttribute="top" secondItem="kzI-SO-3Gg" secondAttribute="top" constant="40" id="xg4-mj-rOb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="X85-G9-gyc" id="ZbM-0C-1v3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDD-by-LA4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
