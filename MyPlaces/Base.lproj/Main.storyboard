@@ -233,15 +233,29 @@
                                     <action selector="closeVC" destination="dh5-oP-ffR" eventType="touchUpInside" id="dPp-cv-MPl"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N4-gp-BnW">
+                                <rect key="frame" x="324" y="772" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="IZh-qv-cMF"/>
+                                    <constraint firstAttribute="width" constant="50" id="kpV-8I-I8z"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="Location"/>
+                                <connections>
+                                    <action selector="CenterViewInUserLocation" destination="dh5-oP-ffR" eventType="touchUpInside" id="JRw-wP-2Px"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kzI-SO-3Gg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kzI-SO-3Gg" firstAttribute="trailing" secondItem="dzy-C7-k95" secondAttribute="trailing" constant="40" id="4ph-cn-drv"/>
+                            <constraint firstItem="kzI-SO-3Gg" firstAttribute="bottom" secondItem="3N4-gp-BnW" secondAttribute="bottom" constant="40" id="Bte-ds-BM6"/>
                             <constraint firstAttribute="trailing" secondItem="X85-G9-gyc" secondAttribute="trailing" id="HU6-sh-H9K"/>
                             <constraint firstItem="X85-G9-gyc" firstAttribute="leading" secondItem="kzI-SO-3Gg" secondAttribute="leading" id="RIn-CN-rQB"/>
                             <constraint firstItem="X85-G9-gyc" firstAttribute="top" secondItem="tqS-Wj-Cdp" secondAttribute="top" id="WqB-2w-otD"/>
                             <constraint firstItem="dzy-C7-k95" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kzI-SO-3Gg" secondAttribute="leading" symbolic="YES" id="Xum-k1-ty0"/>
+                            <constraint firstItem="kzI-SO-3Gg" firstAttribute="trailing" secondItem="3N4-gp-BnW" secondAttribute="trailing" constant="40" id="lLn-Ig-X1j"/>
                             <constraint firstAttribute="bottom" secondItem="X85-G9-gyc" secondAttribute="bottom" id="top-Cp-Sui"/>
                             <constraint firstItem="dzy-C7-k95" firstAttribute="top" secondItem="kzI-SO-3Gg" secondAttribute="top" constant="40" id="xg4-mj-rOb"/>
                         </constraints>
@@ -441,6 +455,7 @@
     <color key="tintColor" systemColor="linkColor"/>
     <resources>
         <image name="AZ" width="25" height="24"/>
+        <image name="Location" width="128" height="128"/>
         <image name="Photo" width="195" height="196"/>
         <image name="camcel" width="128" height="128"/>
         <image name="emptyStar" width="255" height="256"/>
