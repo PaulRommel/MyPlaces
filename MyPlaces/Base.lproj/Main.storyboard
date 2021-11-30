@@ -124,7 +124,7 @@
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="Placeholder"/>
                                                     <connections>
-                                                        <segue destination="dh5-oP-ffR" kind="presentation" identifier="getAdress" modalPresentationStyle="fullScreen" id="9cr-Wz-TJb"/>
+                                                        <segue destination="dh5-oP-ffR" kind="presentation" identifier="getAddress" modalPresentationStyle="fullScreen" id="9cr-Wz-TJb"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -222,7 +222,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLv-3y-jaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ijf-wN-1rB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1208.6956521739132" y="8.7053571428571423"/>
+            <point key="canvasLocation" x="1365" y="9"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="57q-SB-Djn">
@@ -306,7 +306,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adressLabel" destination="kWE-Af-4tY" id="NfJ-PD-3Lg"/>
+                        <outlet property="addressLabel" destination="kWE-Af-4tY" id="NfJ-PD-3Lg"/>
                         <outlet property="doneButton" destination="Hme-6x-8bj" id="9Y9-xH-Nsj"/>
                         <outlet property="mapPinImage" destination="afy-iJ-8eb" id="A8O-6e-XoA"/>
                         <outlet property="mapView" destination="X85-G9-gyc" id="ZbM-0C-1v3"/>
@@ -449,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fkb-Ux-1Sp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440.57971014492756" y="8.0357142857142847"/>
+            <point key="canvasLocation" x="484" y="9"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3KM-Cz-T7c">
