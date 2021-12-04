@@ -283,6 +283,18 @@
                                     <action selector="centerViewInUserLocation" destination="dh5-oP-ffR" eventType="touchUpInside" id="JRw-wP-2Px"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVR-yV-UmH">
+                                <rect key="frame" x="170" y="772" width="74" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="P9R-Tg-5Yn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="XiT-zJ-nld"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="GetDirection"/>
+                                <connections>
+                                    <action selector="goButtonPressed" destination="dh5-oP-ffR" eventType="touchUpInside" id="Rrs-t9-AaT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kzI-SO-3Gg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -299,6 +311,8 @@
                             <constraint firstItem="kzI-SO-3Gg" firstAttribute="bottom" secondItem="Hme-6x-8bj" secondAttribute="bottom" constant="40" id="Vif-hb-rn7"/>
                             <constraint firstItem="X85-G9-gyc" firstAttribute="top" secondItem="tqS-Wj-Cdp" secondAttribute="top" id="WqB-2w-otD"/>
                             <constraint firstItem="dzy-C7-k95" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kzI-SO-3Gg" secondAttribute="leading" symbolic="YES" id="Xum-k1-ty0"/>
+                            <constraint firstItem="mVR-yV-UmH" firstAttribute="centerX" secondItem="tqS-Wj-Cdp" secondAttribute="centerX" id="iCd-iS-rNs"/>
+                            <constraint firstItem="kzI-SO-3Gg" firstAttribute="bottom" secondItem="mVR-yV-UmH" secondAttribute="bottom" constant="40" id="mKh-KT-VIr"/>
                             <constraint firstItem="kzI-SO-3Gg" firstAttribute="bottom" secondItem="3N4-gp-BnW" secondAttribute="bottom" constant="136" id="rro-XJ-JLE"/>
                             <constraint firstAttribute="bottom" secondItem="X85-G9-gyc" secondAttribute="bottom" id="top-Cp-Sui"/>
                             <constraint firstItem="Hme-6x-8bj" firstAttribute="centerX" secondItem="tqS-Wj-Cdp" secondAttribute="centerX" id="v43-GY-OiF"/>
@@ -308,6 +322,7 @@
                     <connections>
                         <outlet property="addressLabel" destination="kWE-Af-4tY" id="NfJ-PD-3Lg"/>
                         <outlet property="doneButton" destination="Hme-6x-8bj" id="9Y9-xH-Nsj"/>
+                        <outlet property="goButton" destination="mVR-yV-UmH" id="dec-wF-j7p"/>
                         <outlet property="mapPinImage" destination="afy-iJ-8eb" id="A8O-6e-XoA"/>
                         <outlet property="mapView" destination="X85-G9-gyc" id="ZbM-0C-1v3"/>
                     </connections>
@@ -504,6 +519,7 @@
     <color key="tintColor" systemColor="linkColor"/>
     <resources>
         <image name="AZ" width="25" height="24"/>
+        <image name="GetDirection" width="50" height="50"/>
         <image name="Location" width="128" height="128"/>
         <image name="Photo" width="195" height="196"/>
         <image name="Pin" width="42" height="42"/>
