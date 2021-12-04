@@ -19,6 +19,7 @@
 		A09C9AF126F74D16004ADDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09C9AEF26F74D16004ADDC4 /* Main.storyboard */; };
 		A09C9AF326F74D1B004ADDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09C9AF226F74D1B004ADDC4 /* Assets.xcassets */; };
 		A09C9AF626F74D1B004ADDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09C9AF426F74D1B004ADDC4 /* LaunchScreen.storyboard */; };
+		A0BBE101275B947C005D78D3 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BBE100275B947C005D78D3 /* MapManager.swift */; };
 		A0BF1E7026F7B695000E5162 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF1E6F26F7B695000E5162 /* MainViewController.swift */; };
 		A0FFDA6B272C2AE100FB1EFD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFDA6A272C2AE100FB1EFD /* StorageManager.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,7 @@
 		A09C9AF226F74D1B004ADDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A09C9AF526F74D1B004ADDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A09C9AF726F74D1B004ADDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BBE100275B947C005D78D3 /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
 		A0BF1E6F26F7B695000E5162 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A0FFDA6A272C2AE100FB1EFD /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,20 +74,69 @@
 		A09C9AE826F74D16004ADDC4 /* MyPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				A09C9AE926F74D16004ADDC4 /* AppDelegate.swift */,
+				A0BBE102275BA750005D78D3 /* ViewControllers */,
+				A0BBE105275BA802005D78D3 /* Helpers */,
+				A0BBE104275BA7DA005D78D3 /* Models */,
+				A0BBE106275BA836005D78D3 /* Support Files */,
+				A0BBE107275BA87C005D78D3 /* IBuilder */,
+			);
+			path = MyPlaces;
+			sourceTree = "<group>";
+		};
+		A0BBE102275BA750005D78D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				A0BF1E6F26F7B695000E5162 /* MainViewController.swift */,
 				A02065AC2719F675005FEB35 /* NewPlaceViewController.swift */,
 				A0963E22274568F5003D3C54 /* MapViewController.swift */,
-				A0249BF627176EFE00461F2E /* PlaceModel.swift */,
-				A0FFDA6A272C2AE100FB1EFD /* StorageManager.swift */,
+				A0BBE103275BA7B7005D78D3 /* Cell */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A0BBE103275BA7B7005D78D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
 				A09018D9270B79D90041C892 /* CustomTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A0BBE104275BA7DA005D78D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0249BF627176EFE00461F2E /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0BBE105275BA802005D78D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0BBE100275B947C005D78D3 /* MapManager.swift */,
+				A0FFDA6A272C2AE100FB1EFD /* StorageManager.swift */,
 				A07FBE8D27370B0000ABA7D4 /* RatingControl.swift */,
-				A09C9AEF26F74D16004ADDC4 /* Main.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A0BBE106275BA836005D78D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09C9AE926F74D16004ADDC4 /* AppDelegate.swift */,
 				A09C9AF226F74D1B004ADDC4 /* Assets.xcassets */,
-				A09C9AF426F74D1B004ADDC4 /* LaunchScreen.storyboard */,
 				A09C9AF726F74D1B004ADDC4 /* Info.plist */,
 			);
-			path = MyPlaces;
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A0BBE107275BA87C005D78D3 /* IBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				A09C9AEF26F74D16004ADDC4 /* Main.storyboard */,
+				A09C9AF426F74D1B004ADDC4 /* LaunchScreen.storyboard */,
+			);
+			path = IBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +222,7 @@
 				A09018DA270B79D90041C892 /* CustomTableViewCell.swift in Sources */,
 				A0249BF727176EFE00461F2E /* PlaceModel.swift in Sources */,
 				A02065AD2719F675005FEB35 /* NewPlaceViewController.swift in Sources */,
+				A0BBE101275B947C005D78D3 /* MapManager.swift in Sources */,
 				A0FFDA6B272C2AE100FB1EFD /* StorageManager.swift in Sources */,
 				A0BF1E7026F7B695000E5162 /* MainViewController.swift in Sources */,
 				A09C9AEA26F74D16004ADDC4 /* AppDelegate.swift in Sources */,
@@ -323,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45M64WD4NB;
-				INFOPLIST_FILE = MyPlaces/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPlaces/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,7 +394,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45M64WD4NB;
-				INFOPLIST_FILE = MyPlaces/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MyPlaces/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
